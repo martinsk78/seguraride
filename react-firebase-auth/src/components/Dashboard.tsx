@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { auth, db } from "../firebase/config"; // db = firebase.database()
 import { ref, onValue, DataSnapshot } from "firebase/database";
 import type { User } from "firebase/auth";
