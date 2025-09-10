@@ -23,5 +23,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+    "include": ["react-firebase-auth/src/**/*.ts", "react-firebase-auth/src/**/*.tsx"],
+
 }
