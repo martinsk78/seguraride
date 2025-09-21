@@ -41,7 +41,8 @@ const provinciasArgentina = [
   { nombre: "Tucumán", lat: -26.8167, lon: -65.2167 },
 ];
 
-const BACKEND_URL = "https://seguraride-backend.vercel.app";
+const BACKEND_URL = "https://seguraride-backend.vercel.app/api";
+
 
 const Dashboard: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);
