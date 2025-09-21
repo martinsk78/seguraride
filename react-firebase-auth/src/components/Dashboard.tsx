@@ -88,7 +88,7 @@ const Dashboard: React.FC = () => {
 
     const fetchAiFeedback = async () => {
       try {
-        const res = await fetch(`${BACKEND_URL}/api/trips-feedback`, {
+        const res = await fetch(`${BACKEND_URL}/trips-feedback`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ trips }),
