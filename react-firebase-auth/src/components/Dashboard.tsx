@@ -102,7 +102,7 @@ const Dashboard: React.FC = () => {
         setAiFeedback(formattedFeedback.join("\n\n"));
       } catch (err) {
         console.error(err);
-        setAiFeedback("Error al obtener feedback");
+        setAiFeedback(String(err));
       }
     };
 
