@@ -1,0 +1,139 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 1500px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #2E8B57;
+  margin-bottom: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-username {
+  font-weight: bold;
+  font-size: 18px;
+}
+.dashboard-data{
+  display: flex;
+  gap: 30px;
+}
+.logout-button {
+  background-color: #FF6347;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #FF4500;
+}
+
+.trips-container {
+  display: grid;
+  grid-template-columns:200px 200px;
+  gap: 15px;
+  height: 640px;
+  overflow-y: scroll;
+}
+
+.trip-card {
+  width: 200px;
+  height: 10rem;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #F0F8FF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trips-title {
+  color: #4682B4;
+  margin-bottom: 10px;
+}
+
+.ai-feedback-title {
+  color: #8A2BE2;
+  margin-top: 30px;
+}
+
+.ai-feedback-box {
+  border: 1px solid #eee;
+  padding: 15px;
+  min-height: 100px;
+  height: 640px;
+  border-radius: 10px;
+  background-color: #FAF0E6;
+  font-style: italic;
+  color: #333;
+}
+
+.plan-salida-title {
+  color: #FF8C00;
+  margin-top: 30px;
+}
+
+.plan-salida-controls {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.plan-salida-select,
+.plan-salida-date {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.plan-salida-button {
+  background-color: #20B2AA;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plan-salida-button:hover {
+  background-color: #2E8B57;
+}
+
+.climate-advice-box {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #F5FFFA;
+  min-height: 80px;
+  font-style: italic;
+  color: #333;
+}
+
+.no-trips {
+  font-style: italic;
+  color: #888;
+}
+
+.login-prompt {
+  font-style: italic;
+  text-align: center;
+  color: #888;
+  margin-top: 50px;
+}
