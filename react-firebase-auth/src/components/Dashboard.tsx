@@ -113,7 +113,7 @@ const Dashboard: React.FC = () => {
   const handleClimateAdvice = async (provNombre: string, fechaParam: string) => {
     setClimateAdvice("Consultando clima...");
     try {
-      const res = await fetch(`${BACKEND_URL}/api/climate-advice`, {
+      const res = await fetch(`${BACKEND_URL}/climate-advice`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ provinciaNombre: provNombre, date: fechaParam }),
