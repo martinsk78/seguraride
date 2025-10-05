@@ -7,8 +7,9 @@ import "../styles/Dashboard.css";
 interface TripData {
   distancia: number;
   promedio: number;
-  velocidad: number;
+  velocidad_max: number; 
 }
+
 
 interface TripWithDate extends TripData {
   id: string;
@@ -173,9 +174,10 @@ const Dashboard: React.FC = () => {
                       <p>
                         Distancia: <strong>{trip.distancia.toFixed(2)} km</strong>
                       </p>
-                      <p>
-                        Velocidad: <strong>{trip.velocidad.toFixed(1)} km/h</strong>
-                      </p>
+                     <p>
+  Velocidad máxima: <strong>{trip.velocidad_max.toFixed(1)} km/h</strong>
+</p>
+
                       <p>
                         Promedio: <strong>{trip.promedio.toFixed(1)} km/h</strong>
                       </p>
