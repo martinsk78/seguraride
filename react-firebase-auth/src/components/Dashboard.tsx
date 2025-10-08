@@ -152,7 +152,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="dashboard-container">
-      <h1 className="dashboard-title">🚴 Dashboard Ciclista</h1>
+      <h1 className="dashboard-title">Seguraride: Panel de control</h1>
       {user ? (
         <>
           <div className="dashboard-header">
