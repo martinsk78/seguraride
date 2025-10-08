@@ -174,10 +174,6 @@ const Dashboard: React.FC = () => {
                       <p>
                         Distancia: <strong>{trip.distancia.toFixed(2)} km</strong>
                       </p>
-                     <p>
-  Velocidad máxima: <strong>{(Math.random() * (20 - 15 + 1) + 15).toFixed(2)} km/h</strong> 
-</p>
-
                       <p>
                         Promedio: <strong>{trip.promedio.toFixed(1)} km/h</strong>
                       </p>
